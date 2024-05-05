@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{%block title%} Home {%endblock title%}
+{%block body%}
+<div class="container-fluid my-0 "  >
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/img/1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Indian Foods</h5>
+        <p>"So often these days eating Indian food passes for spirituality. I don't meditate, I don't pray, but I eat two samosa's every day." ~ Dan Bern</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Italian foods</h5>
+        <p>Life is a combination of magic and pasta.”
+-Federico Fellini, Director</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="/static/img/3.jpg" class="d-block w-100 h-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Chinese foods</h5>
+        <p>Eat more vegetables, less meat. 多吃蔬菜，少吃肉</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </a>
+</div>
+</div>
+<div class="container-fluid" >
+<h1 class ="my-2 text-center"> Select your fav category </h1>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+          <img src="/static/img/1.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="card-body">
+              <p class="card-text"><b>Indian Foods</b>  Consists of a variety of regional and traditional cuisines native to the Indian subcontinent. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a class="dropdown-item" href="/services">view</a>
+
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+             <img src="/static/img/2.jpg" class="d-block w-100 h-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text"><b>Italian Foods</b> is a Mediterranean cuisine consisting of the ingredients, recipes and cooking techniques developed across the Italian Peninsula since antiquity, and later spread around the world together with waves of Italian diaspora.later spread around the world together with waves of Italian diaspora.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a class="dropdown-item" href="#">view</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="/static/img/3.jpg" class="d-block w-100 h-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text"><b>Chinese foods</b>  Color, smell, and taste are the three traditional aspects used to describe Chinese food,[4] as well as the meaning, appearance, and nutrition of the food. Cooking should be appraised with respect to the ingredients used, knifework, cooking time, and seasoning</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                <a class="dropdown-item" href="/chinese">view</a>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+              <img src="https://source.unsplash.com/collection/190727/1600x400" class="d-block w-100 h-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://source.unsplash.com/collection/190727/1600x400" class="d-block w-100 h-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+           <img src="https://source.unsplash.com/collection/190727/1600x400" class="d-block w-100 h-100" alt="...">
+
+            <div class="card-body">
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-muted">9 mins</small>
+              </div>
+            </div>
+          </div>
+          </div>   
+      </div>
+    </div>
+{%endblock body%}
